@@ -1,0 +1,11 @@
+li {
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    .done {
+        background-color: grey;
+        opacity: 0.5;
+    }
+}
