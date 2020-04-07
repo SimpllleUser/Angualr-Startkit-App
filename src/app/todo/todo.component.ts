@@ -10,6 +10,7 @@ import { delay } from 'rxjs/operators';
 export class TodoComponent implements OnInit {
 
   public loading: boolean = true;
+  public searchString: string = '';
 
   constructor(public todosService: TodoService) { }
 

@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { TodoFormComponent } from './todo-form/todo-form.component';
+import { TodoFilterPipe } from './shared/todo-filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
-    TodoFormComponent
+    TodoFormComponent,
+    TodoFilterPipe
   ],
   imports: [
     BrowserModule,
